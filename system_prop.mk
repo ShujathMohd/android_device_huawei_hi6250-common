@@ -22,6 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bg_apps_limit=60
+    
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.multisim.config=dsds \
 
 # USB
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
